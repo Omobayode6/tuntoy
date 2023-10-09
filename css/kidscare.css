@@ -564,9 +564,9 @@ pre.code,
 
 /* Theme Accent3 Color */
 
-.theme_accent3 {}
+/* .theme_accent3 {}
 .theme_accent3_bgc {}
-.theme_accent3_border {}
+.theme_accent3_border {} */
 
 /* Theme Accent4 Color */
 
@@ -614,7 +614,7 @@ pre.code,
 .tribe-events-button:hover,
 .tribe-events-button.tribe-active:hover,
 #tribe-events .tribe-events-button,
-#tribe-events .tribe-events-button:hover,
+#tribe-events .tribe-events-button:hover
 {background-color: #1bb4b9;}
 
 #tribe-bar-form .tribe-bar-submit input[type="submit"] {background: #1bb4b9;}
@@ -831,11 +831,11 @@ pre.code,
 .theme_skin_kidscare .sc_testimonials .sc_testimonials_item_author .sc_testimonials_item_name { font-size: 20px; font-weight: 400; margin-left: 80px; }
 .theme_skin_kidscare .sc_testimonials .sc_testimonials_item_author .sc_testimonials_item_position { font-size: 16px; font-weight: 300; text-transform: uppercase; margin-left: 80px; }
 .theme_skin_kidscare .sc_testimonials .sc_testimonials_item_object {display: none;}
-.theme_skin_kidscare .sc_testimonials .sc_testimonials_item_object .obhect {}
+/* .theme_skin_kidscare .sc_testimonials .sc_testimonials_item_object .obhect {} */
 
-.theme_skin_kidscare .sc_testimonials.sc_testimonials_style_1 {}
+/* .theme_skin_kidscare .sc_testimonials.sc_testimonials_style_1 {}
 .theme_skin_kidscare .sc_testimonials.sc_testimonials_style_2 {}
-.theme_skin_kidscare .sc_testimonials.sc_testimonials_style_3 {}
+.theme_skin_kidscare .sc_testimonials.sc_testimonials_style_3 {} */
 
 .theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .sc_testimonials_items,
 .theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .flex-direction-nav li {background-color: transparent;}
@@ -848,11 +848,11 @@ pre.code,
 .theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .sc_testimonials_item_author .sc_testimonials_item_name {font-size: 35px; margin-left: 95px; font-weight: bold; margin-top: 10px;}
 .theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .sc_testimonials_item_author .sc_testimonials_item_position {font-size: 16px; margin-left: 95px; margin-top: 10px;}
 
-.theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .sc_testimonials_item_quote .sc_testimonials_item_text,
+/* .theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .sc_testimonials_item_quote .sc_testimonials_item_text,
 .theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .sc_testimonials_item_author .sc_testimonials_item_name,
-.theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .sc_testimonials_item_author .sc_testimonials_item_position { /*color: #ffffff;*/ }
+.theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .sc_testimonials_item_author .sc_testimonials_item_position {}  */
 
-.theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .swiper-slide .sc_testimonials_item_content {}
+/* .theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .swiper-slide .sc_testimonials_item_content {} */
 .theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .swiper-slide .sc_testimonials_item_content .sc_testimonials_item_object {height: 96px; position: relative; overflow: hidden; margin-top: 70px; display: block;}
 .theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .swiper-slide .sc_testimonials_item_content .sc_testimonials_item_object .object {height: 96px; width: 194px; position: absolute; top: 0; right: 0%; margin-right: -97px; background: transparent url("../images/object_2.png") no-repeat center center;}
 
@@ -863,8 +863,8 @@ pre.code,
 	-webkit-transition-delay: 0.3s; -moz-transition-delay: 0.3s; -o-transition-delay: 0.3s; transition-delay: 0.3s;
 }
 
-.theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .swiper-slide .sc_testimonials_item_content .sc_testimonials_item_object .object {}
-.theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .swiper-slide.swiper-slide-visible .sc_testimonials_item_content .sc_testimonials_item_object .object {}
+/* .theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .swiper-slide .sc_testimonials_item_content .sc_testimonials_item_object .object {}
+.theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .swiper-slide.swiper-slide-visible .sc_testimonials_item_content .sc_testimonials_item_object .object {} */
 .theme_skin_kidscare .sc_testimonials_style_2.with_aircraft .swiper-slide.swiper-slide-active .sc_testimonials_item_content .sc_testimonials_item_object .object {right: 50%;}
 
 
@@ -1002,7 +1002,7 @@ ul#mainmenu .menu-panel ul.columns > li a .menu_icon { display: none; }
 .topWrap .topMenuStyleLine > ul > li ul li ul {border-top: none; padding-top: 4px; margin-top: -5px;}
 
 .topWrap .topMenuStyleLine > ul > li.current-menu-ancestor > a {background-color: #1BB4B9; color: #ffffff;}
-.topWrap .topMenuStyleLine > ul > li ul li.current-menu-item > a {background:#fff; color: }
+.topWrap .topMenuStyleLine > ul > li ul li.current-menu-item > a {background:#fff;}
 
 /* menu animation */
 @-webkit-keyframes bounceIn {
@@ -1031,7 +1031,7 @@ ul#mainmenu .menu-panel ul.columns > li a .menu_icon { display: none; }
 /* /animation */
 
 .topWrap .topMenuStyleLine > ul > li ul { font-weight: 700; }
-.topMenuStyleLine ul#mainmenu .menu-panel ul.columns > li > a {}
+/* .topMenuStyleLine ul#mainmenu .menu-panel ul.columns > li > a {} */
 .topWrap .topMenuStyleLine > ul > li ul li a,
 .topMenuStyleLine ul#mainmenu .menu-panel ul.columns > li > a,
 .topMenuStyleLine ul#mainmenu > li ul li a .menu_icon
@@ -1218,7 +1218,7 @@ header.fixedTopMenu .topWrap .menuTopWrap.topMenuStyleLine > ul#mainmenu > li > 
 /* Footer
 ------------------------------------------------------------------- */
 .footerWrap.footerStyleLight {background: #f9fafb url("../images/pattern_7.png") repeat 50% 100%; border: none;}
-.footerWrap.footerStyleDark {}
+/* .footerWrap.footerStyleDark {} */
 
 /*.theme_skin_kidscare .contactFooterWrap.footerStyleLight {background: #ea624c url("../images/object_1.png") no-repeat 50% 100%; color: #ffffff;}*/
 .theme_skin_kidscare .contactFooterWrap.footerStyleLight {background: #ea624c; color: #ffffff;}
@@ -1228,7 +1228,7 @@ header.fixedTopMenu .topWrap .menuTopWrap.topMenuStyleLine > ul#mainmenu > li > 
 .contactFooterWrap.footerStyleDark .contactAddress {color: #ffffff;}
 
 .footerWidget {padding-bottom: 80px; padding-top: 80px;}
-.footerStyleLight .footerWidget .widgetWrap .title {}
+/* .footerStyleLight .footerWidget .widgetWrap .title {} */
 .footerStyleLight .footerWidget .widgetWrap .title {text-transform: uppercase; color: #292929; padding-bottom: 50px;}
 
 .footerWrap .sidebar > .widget ul > li,
@@ -1289,10 +1289,11 @@ header.fixedTopMenu .topWrap .menuTopWrap.topMenuStyleLine > ul#mainmenu > li > 
     border-radius: 10px;
     overflow: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0) scale(1.0, 1.0);
     background-color: #2d3e50;
 }
 
-.sc_blogger.style_image_classes .thumb {}
+/* .sc_blogger.style_image_classes .thumb {} */
 .sc_blogger.style_image_classes .thumb img {border-radius: 0;}
 /*.sc_blogger.style_image_classes .thumb a:hover img {opacity: 0.5; -moz-opacity: 0.5; -khtml-opacity: 0.5; filter: alpha(opacity=50); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";}*/
 
@@ -1451,6 +1452,7 @@ header.fixedTopMenu .topWrap .menuTopWrap.topMenuStyleLine > ul#mainmenu > li > 
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	-webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0) scale(1.0, 1.0);
 }
 .theme_skin_kidscare .sc_team .sc_team_item .sc_team_item_avatar:before {content:''; display:block; position:absolute; width:100%; height:100%; z-index: 3; margin-left: -4px; border-right: solid 4px rgba(27, 180, 185, 0.50);}
 .theme_skin_kidscare .sc_team .sc_team_item .sc_team_item_avatar:after {margin: 0; opacity: 0; -moz-opacity: 0; -khtml-opacity: 0; filter: alpha(opacity=0); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; background-color: #1BB4B9;}
@@ -1541,7 +1543,10 @@ header.fixedTopMenu .topWrap .menuTopWrap.topMenuStyleLine > ul#mainmenu > li > 
 .sc_slider_swiper,
 .relatedPostWrap article .sc_slider,
 .sc_team .sc_team_item .sc_team_item_avatar
-/*overRadius*/{-webkit-transform: translateZ(0) scale(1.0, 1.0);}
+/*overRadius*/
+{-webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0) scale(1.0, 1.0)
+}
 
 /* Disable shadows 
 ------------------------------------------------------------------- */

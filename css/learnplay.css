@@ -105,7 +105,7 @@
 .post .sc_image figcaption {background-color: transparent;}
 
 /* hide search placeholder */
-.theme_skin_learnplay .topWrap .search .searchForm .searchField:-moz-placeholder {color: transparent);}
+.theme_skin_learnplay .topWrap .search .searchForm .searchField:-moz-placeholder {color: transparent;}
 .theme_skin_learnplay .topWrap .search .searchForm .searchField:-ms-input-placeholder {color: transparent;}
 .theme_skin_learnplay .topWrap .search .searchForm .searchField::-webkit-input-placeholder {color: transparent;}
 

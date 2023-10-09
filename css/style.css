@@ -1791,7 +1791,7 @@ ul#mainmenu .menu-panel ul.columns>li ul{max-width:260px; }
 .itemPageFullWrapper .itemInfo .postSharing {float: right; padding: 0 0 0 50px;}
 
 .itemPageFull{ position:relative; overflow:hidden;}
-.itemPageFull:after{ content:""; display:block; clear:both; height:0;}{}
+.itemPageFull:after{ content:""; display:block; clear:both; height:0;}
 .itemPageFull .thumb{ width:100%; height:100%; overflow:hidden;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;

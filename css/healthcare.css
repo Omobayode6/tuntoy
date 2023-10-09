@@ -101,6 +101,7 @@ a:hover {color: #464646;}
 .theme_skin_healthcare .sc_team .sc_team_item {padding-top: 65px;}
 .theme_skin_healthcare .sc_team .sc_team_item .sc_team_item_avatar {
 	-webkit-transform: translateZ(0) scale(1.0, 1.0);
+	transform: translateZ(0) scale(1.0, 1.0);
 	border-radius: 10px;
 }
 .theme_skin_healthcare .sc_team .sc_team_item .sc_team_item_avatar:before {
@@ -111,7 +112,7 @@ a:hover {color: #464646;}
 .theme_skin_healthcare .sc_team .sc_team_item .sc_team_item_info .sc_team_item_title { font-family: 'Ubuntu', sans-serif; font-weight: 400; font-size: 20px; }
 .theme_skin_healthcare .sc_team .sc_team_item .sc_team_item_info .sc_team_item_position { font-family: 'Ubuntu', sans-serif; text-transform: uppercase; }
 
-.theme_skin_healthcare .twitBlock .sc_slider {  }
+/* .theme_skin_healthcare .twitBlock .sc_slider {  } */
 .theme_skin_healthcare .twitBlock.main { height: 230px; }
 .theme_skin_healthcare .twitBlock.main .sc_slider  { height: 230px; }
 .theme_skin_healthcare .twitBlock.main .sc_slider ul,
