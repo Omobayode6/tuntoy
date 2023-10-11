@@ -4698,6 +4698,17 @@ pre.code{ border-left-width: 3px; border-left-style: solid; font-size: 12px; pad
 	}
 }
 
+@keyframes viewmore {
+	0% {
+		transform: scale(.1);
+		-webkit-transform: scale(.1);
+	}
+	100% {
+		transform: scale(1);
+		-webkit-transform: scale(1);
+	}
+}
+
 @keyframes zoomout {
 	0% {
 		transform: scale(1);

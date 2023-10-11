@@ -132,30 +132,30 @@
 												<div class="columns2_3 sc_column_item sc_column_item_1 odd first span_2">
 													<div class="sc_contact_form sc_contact_form_contact contact_form_1">
 														<h1 class="title">Send Us a Message</h1>
-													    <form class="contact_1" method="post" action="include/contact-form.php">
-													        <div class="columnsWrap">
+													  	<form id="contact-form">
+													      <div class="columnsWrap">
 																<div class="columns1_3">
 																	<label class="required" for="contact_form_username">Name</label>
-													                <input type="text" name="name" id="contact_form_username">
+													          		<input type="text" name="name" id="name" required>
 													            </div>
 													            <div class="columns1_3">
 													            	<label class="required" for="contact_form_email">E-mail</label>
-													                <input type="text" name="email" id="contact_form_email">
+													                <input type="text" name="email" id="email" required>
 													            </div>
 													            <div class="columns1_3">
 													            	<label class="required" for="contact_form_subj">Subject</label>
-													                <input type="text" name="subject" id="contact_form_subj">
+													                <input type="text" name="subject" id="subject" required>
 													            </div>
 													        </div>
 													        <div class="message">
 																<div class="">
 																	<label class="required" for="contact_form_message">Your Message</label>
-													                <textarea  id="contact_form_message" class="textAreaSize" name="message"></textarea>
+													              <textarea id="message" class="textAreaSize" name="message" required></textarea>
 													            </div>
 													        </div>
 															<div class="sc_contact_form_button">
-																<div class="squareButton sc_button_size sc_button_style_global global ico">
-																	<button type="submit" name="contact_submit" class="contact_form_submit icon-comment-1">Send Message</button>
+																<div id='submit' class="squareButton sc_button_size sc_button_style_global global ico">
+																	<button type="submit"  id='submit' class="contact_form_submit icon-comment-1">Send Message</button>
 																</div>
 															</div>
 
@@ -249,6 +249,16 @@
 	<script type="text/javascript" src="js/custom/_googlemap_init.js"></script>
 
 	<!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
+	<!-- Emailjs Script -->
+	<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+	</script>
+	<script type="text/javascript">
+		(function(){
+				emailjs.init("EznEkKvnpn-DYXBdO");
+		})();
+	</script>
 
+	<script src="email.js"></script>
 </body>
 </html>

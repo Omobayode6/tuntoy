@@ -22,7 +22,7 @@
 .openRightMenu:before { height: 28px; line-height:29px; color: rgba(255,255,255,0.4); }
 .openRightMenu:hover { background-color: #ffffff; }
 
-.swpLeftPos{ left: 0; width: 50px;}
+.swpLeftPos{ left: 0; width: 50px;} 
 .swpRightPos{ right: 0; width: 250px; background-color: #f6f6f6;  height: 100%; position:  fixed; top: 0; z-index: 3000; margin: 0 -250px 0 0 ;}
 .openMenuFixRight .swpRightPos{ margin: 0;}
 

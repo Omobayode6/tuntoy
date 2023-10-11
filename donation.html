@@ -125,24 +125,82 @@
 
 									<section class="no_padding">
 										<div class="container">
+											<div class="columnsWrap sc_columns sc_columns_count_3 margin_top_middle margin_bottom_middle">
+												<div class="columns2_3 sc_column_item sc_column_item_1 odd first span_2">
+													<div class="sc_contact_form sc_contact_form_contact contact_form_1">
+														<h1 class="title">Make a Donation</h1>
+													  	<form id="donate-form">
+													      <div class="columnsWrap">
+																<div class="columns1_3">
+																	<label class="required" for="contact_form_username">Name</label>
+													          		<input type="text" name="name" id="name" placeholder="Imole John" required>
+													            </div>
+													            <div class="columns1_3">
+													            	<label class="required" for="contact_form_email">Phone Number</label>
+													                <input type="text" name="phone" id="phone" placeholder="08034573822" required>
+													            </div>
+													            <div class="columns1_3">
+													            	<label class="required" for="contact_form_subj">Amount</label>
+													                <input type="text" name="amount" id="amount" placeholder="200,000" required>
+													            </div>
+													        </div>
+													        <div class="message">
+																<div class="">
+																	<label class="required" for="contact_form_message">Your Message</label>
+													              <textarea id="message" class="textAreaSize" name="message" placeholder="I am donating 200,000 to support the good work your school is doing." required></textarea>
+													            </div>
+													        </div>
+															<div class="sc_contact_form_button">
+																<div id='submit' class="squareButton sc_button_size sc_button_style_global global ico">
+																	<button type="submit"  id='submit' class="contact_form_submit icon-comment-1">Donate</button>
+																</div>
+															</div>
+
+													      <div class="result sc_infobox"></div>
+													    </form>
+													</div> 
+												</div>
+												<div class="columns1_3 sc_column_item sc_column_item_3 odd after_span_2">
+													<h1 class="sc_title sc_title_regular">Business hours</h1>
+													<div class="work_days">
+														<p>
+															Monday &#8211; Friday 7am to 6pm <br />
+															Saturday &#8211; Sunday &#8211; Closed
+														</p>
+														<div class="footer_contacts">
+															<span class="sc_icon icon-home theme_accent"></span>
+															15, Kadejo street, Ibafo, Ogun state<br>
+															<span class="sc_icon icon-email theme_accent"></span>
+															tuntoy@gmail.com<br>
+															<span class="sc_icon icon-phone theme_accent"></span>
+															08023128192 &amp; 08033560644
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>	
+
+									<!-- <section class="no_padding">
+										<div class="container">
 
 											<h3 class="sc_title sc_title_regular">Select Amount</h3>
 											<div class="sc_contact_form sc_contact_form_custom margin_bottom_middle">
 												<form data-formtype="custom" method="post" action="#">
 													<div class="sc_contact_form_field label_right bubble alignleft">
-														<input type="radio" id="1" name="donation_amount" value="50">
+														<input type="radio" id="1" name="donation_amount" value="50000">
 														<label for="1">₦50,000</label>
 													</div>
 													<div class="sc_contact_form_field label_right bubble alignleft">
-														<input type="radio" id="2" name="donation_amount" value="100" checked="checked">
+														<input type="radio" id="2" name="donation_amount" value="100000" checked="checked">
 														<label for="2" class="selected">₦100,000</label>
 													</div>
 													<div class="sc_contact_form_field label_right bubble alignleft">
-														<input type="radio" id="3" name="donation_amount" value="500">
+														<input type="radio" id="3" name="donation_amount" value="150000">
 														<label for="3">₦150,0000</label>
 													</div>
 													<div class="sc_contact_form_field label_right bubble alignleft">
-														<input type="radio" id="4" name="donation_amount" value="1000">
+														<input type="radio" id="4" name="donation_amount" value="200000">
 														<label for="4">₦200,000</label>
 													</div>
 													<div class="sc_contact_form_field label_right bubble alignleft">
@@ -165,7 +223,7 @@
 											</div>
 
 										</div>
-									</section>
+									</section> -->
 
 								</div>
 							</article>
@@ -227,8 +285,18 @@
 	<script type='text/javascript' src='js/custom/_utils.js'></script>
 	<script type='text/javascript' src='js/custom/_front.js'></script>
 	<script type='text/javascript' src='js/custom/__main.js'></script>
-
 	<!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
+	
+	<!-- Emailjs Script -->
+	<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+	</script>
+	<script type="text/javascript">
+		(function(){
+				emailjs.init("EznEkKvnpn-DYXBdO");
+		})();
+	</script>
 
+	<script src="donate.js"></script>
 </body>
 </html>
